@@ -10,7 +10,7 @@ function EmbedExpression() {
   const companyName = "Dumbways.id";
 
   return (
-    <div className="App-header">
+    <div>
       {/*Include expression in a variable*/}
       <p>
         Welcome To {companyName} Class
