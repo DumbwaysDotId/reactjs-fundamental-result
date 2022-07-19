@@ -22,7 +22,7 @@ function GuestPage(props) {
   );
 }
 
-function ConditionRenderin() {
+function ConditionRendering() {
   //init State
   const [isLoggedin, setIsLoggedin] = useState(false);
   return (
@@ -37,4 +37,4 @@ function ConditionRenderin() {
   );
 }
 
-export default ConditionRenderin;
+export default ConditionRendering;
