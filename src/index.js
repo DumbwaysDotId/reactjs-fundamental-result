@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import EmbedExpression from "./embedExpression";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <EmbedExpression />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
